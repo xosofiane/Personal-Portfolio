@@ -173,3 +173,10 @@ nav {
 .footer span{
     color:rgb(172, 0, 63);
 }
+
+
+@media (max-width:769px) {
+    .footer{
+        font-size: .8rem;
+    }
+}

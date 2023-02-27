@@ -176,3 +176,8 @@ nav {
     color:rgb(38, 0, 255);
 }
 
+
+@media (max-width:769px) {
+    .footer{
+        font-size: .8rem;
+    }
