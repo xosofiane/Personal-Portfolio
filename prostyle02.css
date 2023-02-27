@@ -6,15 +6,15 @@
 }
 body{
     overflow-x: hidden;
-    background-color: rgb(84, 15, 40, .1);
+    background-color: rgba(250, 235, 215, 0.3);
 }
 nav {
-    background: rgba(255, 179, 0, 0.6);
+    background:rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(2px);
 }
 
 #proj{
-    color: rgb(0, 170, 0);
+    color: rgb(55, 0, 255);
     text-transform: uppercase;
     font-size: 1.8rem;
     font-weight: 600;
@@ -24,10 +24,10 @@ nav {
     font-size: 1.6rem;
     font-weight: 600;
     letter-spacing: 2px;
-    color: rgb(172, 0, 63);
+    color: rgb(55, 0, 255);
 }
 #proj2 span{
-    color: rgb(0, 170, 0);
+    color: rgb(255, 0, 0);
 }
 #yout{
     font-size: 1.6rem;
@@ -36,30 +36,35 @@ nav {
     color: rgb(172, 0, 63);
 }
 #port{
-    color: rgb(172, 0, 63);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
 }
-#restaurant{
+.row p{
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+#project_name{
     font-size: 1.6rem;
-    color: rgb(172, 0, 63);
+    color: rgb(55, 0, 255);
     font-weight: 600;
 }
 .dropdown{
-    background-color: rgb(172, 0, 63);
+    background-color: rgb(255, 251, 0);
     box-shadow: 1px 1px 1px rgb(0, 170, 0);
     border-radius: 30px;
 }
 .dropdown #pro{
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
     font-weight: 600;
 }
 .dropdown-menu{
-    background-color: rgb(172, 0, 63);
+    background-color: rgb(255, 251, 0);
 }
 .dropdown-menu h6{
-    color: white;
+    color:rgb(55, 0, 255);
 }
 .dropdown-menu .dropdown-item{
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 600;
 }
 .dropdown-menu .dropdown-item:hover{
@@ -91,10 +96,7 @@ nav {
 .row a:hover{
     background-color: rgb(172, 0, 63);
 }
-.row p{
-    font-weight: 400;
-    line-height: 1.5rem;
-}
+
 #demo{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -120,7 +122,7 @@ nav {
 .sm-icons #iconlogo3,
 .sm-icons #iconlogo4{
     padding-right:1em;
-    color: rgb(172, 0, 63);
+    color: rgb(0, 0, 0);
 }
 /*--- Github logo ---*/
 #iconlogo1{
@@ -165,11 +167,12 @@ nav {
     padding:1rem;
     font-size: 1.1rem;
     color:rgb(0, 0, 0);
-    background: rgba(255, 179, 0,1);
+    background: rgb(238, 255, 0);
     font-weight: 500;
     text-align: center;
 }
 
 .footer span{
-    color:rgb(172, 0, 63);
+    color:rgb(38, 0, 255);
 }
+

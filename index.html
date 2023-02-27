@@ -31,7 +31,6 @@
         <a class="abo" href="#about">about</a>
         <a class="ser" href="#services">services</a>
         <a class="por" href="#portfolio">portfolio</a>
-        <a class="blo" href="#blogs">blogs</a>
         <a class="con" href="#contact">contact</a>
     </nav>
 
@@ -48,7 +47,7 @@
     <div class="content">
         <img class="tilt" src="images/a.JPG" alt="">
         <h3> Soufiane <span>Messai</span> </h3>
-        <p> I am a <span class="typing-text"> front end developer </span> </p>
+        <p> I am a <span class="typing-text"> </span> </p>
         <a href="#about" class="btn">about me</a>
         <div class="social">
             <a href="https://github.com/xosofiane" target="_blank">
@@ -85,22 +84,7 @@
 
         <div class="content">
             <h3> My name is <span> Soufiane Messai </span> </h3>
-            <p class="info">Welcome. I am a frontend developer with about 1 year experience. Working with Html, Css, Javascript, Reactjs, Python, Bootstrap and Figma. I Love web development and am working as a freelancer. I keep busy coding and learning both design and development by building and maintaining personal projects. I invite you to review the information below.</p>
-            <div class="box-container">
-                <div class="box">
-                    <p> <span> Age: </span> 25 </p>
-                    <p> <span> Gender: </span> male </p>
-                    <p> <span> Experience  : </span> 1,5 years </p>
-                    <p> <span> Freelance : </span> available </p>
-                </div>
-                <div class="box">
-                    <p> <span> Language : </span> Arabic / English / French </p>
-                    <p> <span> Phone : </span> +213-0554109811 </p>
-                    <p> <span> Email : </span> sofianeworkmessai@gmail.com </p>
-                    <p> <span> Address : </span> Chelghoum Laid, Mila - Algeria </p>
-                </div>
-                
-            </div>
+            <p class="info">Welcome. I am a Frontend Developer and a Graphic Designer. Working with Html, Css, Javascript, Reactjs, Python, Bootstrap, Figma, Photoshop and Illustrator. I am working as a freelancer. I keep busy coding and learning both design and development by building and maintaining personal projects. I invite you to review the information below.</p>
             <a href="cv.pdf" target="_blank" class="btn">download CV</a>
         </div>
 
@@ -149,12 +133,12 @@
         <div class="face face1">
         <div class="content">
         <i class='bx bx-image'></i>
-        <h3>Design to Html</h3>
+        <h3>Graphic Design</h3>
         </div>
         </div>
         <div class="face face2">
         <div class="content ser">
-        <p> If you already have a design on Figma/AdobeXd, I can convert it from scratch into pixel perfect Html,Css and JavaScript website</p>
+        <p> I make social media banners | profile pictures | posts | flyers | posters | youtube thumbnails | Logos</p>
         </div>
         </div>
         </div>
@@ -177,26 +161,6 @@
 
     <div class="box-container">
 
-        <div class="box tilt">
-            <img src="images/img-1.jpg" alt="">
-            <div class="content">
-                <a href="#" class="btn">View more</a>
-            </div>
-        </div>
-
-        <div class="box tilt">
-            <img src="images/img-2.jpg" alt="">
-            <div class="content">
-                <a href="#" class="btn">View more</a>
-            </div>
-        </div>
-
-        <div class="box tilt">
-            <img src="images/img-3.jpg" alt="">
-            <div class="content">
-                <a href="#" class="btn">View more</a>
-            </div>
-        </div>
 
         <div class="box tilt">
             <img src="images/GA.jpg" alt="">
@@ -213,7 +177,7 @@
         </div>
 
         <div class="box tilt">
-            <img src="images/img-06.jpg" alt="">
+            <img src="images/graphicdesign.png" alt="">
             <div class="content">
                 <a href="https://www.behance.net/xosofiane" class="btn" target="_blank">View more</a>
             </div>
@@ -225,40 +189,6 @@
 
 <!-- portfolio section ends -->
 
-<!-- blogs section starts  -->
-
-<section class="blogs" id="blogs">
-
-    <h1 class="heading"> <span> my </span> blogs </h1>
-
-    <div class="box-container">
-        
-        <div class="box tilt">
-            <img src="images/blog-img-1.jpg" alt="">
-            <h3> blogs title goes here </h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sint tenetur adipisci explicabo nisi libero, in rerum earum. Dolor, quibusdam!</p>
-            <a href="#" class="btn">learn more</a>
-        </div>
-
-        <div class="box tilt">
-            <img src="images/blog-img-2.jpg" alt="">
-            <h3> blogs title goes here </h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sint tenetur adipisci explicabo nisi libero, in rerum earum. Dolor, quibusdam!</p>
-            <a href="#" class="btn">learn more</a>
-        </div>
-
-        <div class="box tilt">
-            <img src="images/blog-img-3.jpg" alt="">
-            <h3> blogs title goes here </h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sint tenetur adipisci explicabo nisi libero, in rerum earum. Dolor, quibusdam!</p>
-            <a href="#" class="btn">learn more</a>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- blogs section ends -->
 
 <!-- contact section starts  -->
 
@@ -312,6 +242,7 @@
 
 <!-- javascript part  -->
 
+
 <!-- typed.js link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 
@@ -323,6 +254,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
 
 <script>
+
 
 let menu = document.querySelector('#menu-bars');
 let header = document.querySelector('header');
@@ -338,9 +270,10 @@ window.onscroll = () =>{
 };
 
 var typed = new Typed('.typing-text', {
-    strings : ['!','Front-End Developer'],
+    strings : ['','Front-end Developer', 'Graphic Designer'],
     loop : true,
-    typeSpeed : 350
+    typeSpeed : 350,
+    backSpeed : 100
 });
 
 VanillaTilt.init(document.querySelectorAll('.tilt'),{
