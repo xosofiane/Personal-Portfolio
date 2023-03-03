@@ -175,9 +175,12 @@ nav {
 .footer span{
     color:rgb(38, 0, 255);
 }
-
+.container hr{
+    margin-bottom: 6rem;
+}
 
 @media (max-width:769px) {
     .footer{
         font-size: .7rem;
     }
+}
