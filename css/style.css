@@ -598,4 +598,12 @@ header .navbar a:hover{
     #course-inner .learn p i {
     margin-right: 5px;
 	}
+    .about .row .content h3{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .about .row .content h3 span{
+        font-size: 2.5rem;
+    }
 }
