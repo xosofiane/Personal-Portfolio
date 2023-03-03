@@ -182,4 +182,10 @@ nav {
     .footer{
         font-size: .7rem;
     }
+    #restaurant{
+        text-align: center;
+    }
+    #demo{
+        margin-left: 3rem;
+    }
 }

@@ -183,4 +183,10 @@ nav {
     .footer{
         font-size: .7rem;
     }
+    #project_name{
+        text-align: center;
+    }
+    #demo{
+        margin-left: 3rem;
+    }
 }
