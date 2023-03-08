@@ -530,18 +530,48 @@ header .navbar a:hover{
     header .navbar{
         writing-mode: horizontal-tb;
     }
-
+    header .navbar .hom{
+        background-color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    header .navbar .abo{
+        background-color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    header .navbar .ser{
+        background-color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    header .navbar .por{
+        background-color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    header .navbar .blo{
+        background-color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    header .navbar .con{
+        background-color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-weight: 600;
+    }
     header .navbar a{
         display: block;
         font-size: 3rem;
+        color: #000000;
         margin: 10px;
-        border-radius: 20px;
+        border-radius: 8px;
         text-align: center;
         transition: .8s;
     }
     header .navbar a:hover{
         color:black;
-        background-color: #FFFF00;
+        background-color: #8b8b8b;
         transform: scale(1.1);
     }
     .container{
