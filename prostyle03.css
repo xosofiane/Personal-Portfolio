@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(84, 15, 40, .1);
+}
+nav {
+    background: rgba(0, 187, 255, 0.6);
+    backdrop-filter: blur(2px);
+}
+
+#proj{
+    color: #17252A;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+#proj2{
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #17252A;
+}
+#proj2 span{
+    color: #2B7A78;
+}
+#yout{
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgb(172, 0, 63);
+}
+#port{
+    color: #17252A;
+}
+#restaurant{
+    font-size: 1.6rem;
+    color: #2B7A78;
+    font-weight: 600;
+}
+.dropdown{
+    background-color: #17252A;
+    box-shadow: 1px 1px 1px rgb(0, 170, 0);
+    border-radius: 30px;
+}
+.dropdown #pro{
+    color: white !important;
+    font-weight: 600;
+}
+.dropdown-menu{
+    background-color:#17252A;
+}
+.dropdown-menu h6{
+    color: white;
+}
+.dropdown-menu .dropdown-item{
+    color: white;
+    font-weight: 600;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: rgba(30, 175, 219, 0.3);
+}
+#youtube{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+#youtube iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+}
+.accordion-button{
+    font-weight: 600;
+}
+.row a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: .6s ease-in-out;
+}
+.row a:hover{
+    background-color: rgb(172, 0, 63);
+}
+.row p{
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+#demo{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: .6s ease-in-out;
+}
+#demo:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 170, 0);
+}
+#demo,
+#repo{
+    margin: 20px 0px 20px 10px;
+}
+.sm-icons{
+    flex-direction: row;
+    justify-content: center;
+}
+.sm-icons #iconlogo1,
+.sm-icons #iconlogo2,
+.sm-icons #iconlogo3,
+.sm-icons #iconlogo4{
+    padding-right:1em;
+    color: #17252A;
+}
+/*--- Github logo ---*/
+#iconlogo1{
+    transition: .4s ease-in-out;
+}
+#iconlogo1:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+
+/*--- Linkedin logo ---*/
+#iconlogo2{
+    transition: .4s ease-in-out;
+}
+#iconlogo2:hover{
+    color: rgb(55, 0, 255);
+    transform: scale(1.1);
+}
+
+/*--- Instagram logo ---*/
+#iconlogo3{
+    transition: .4s ease-in-out;
+}
+#iconlogo3:hover{
+    color: rgb(255, 0, 0);
+    transform: scale(1.1);
+}
+
+
+/*--- Behance logo ---*/
+#iconlogo4{
+    transition: .4s ease-in-out;
+}
+#iconlogo4:hover{
+    color: rgb(5, 62, 255);
+    transform: scale(1.1);
+}
+
+/*--- Footer ---*/
+
+.footer{
+    padding:1rem;
+    font-size: 1.1rem;
+    color:rgb(0, 0, 0);
+    background: rgb(0, 217, 255);
+    font-weight: 500;
+    text-align: center;
+}
+
+.footer span{
+    color:#2B7A78;
+}
+
+.container hr{
+    margin-bottom: 6rem;
+}
+
+@media (max-width:769px) {
+    .footer{
+        font-size: .7rem;
+    }
+    #restaurant{
+        text-align: center;
+    }
+    #demo{
+        margin-left: 3rem;
+    }
+}
